@@ -49,16 +49,13 @@
 
 	<!-- Incudes navigation bar.  -->
 	{% include 'home/side-nav.html' %}
-
 	<!-- WRAPPER -->
 	<div class="wrapper">
 
 		<!-- HERO -->
-		
 		<hr class="divider">
+{% block body %} {% endblock %}
 
-		<!-- Footer section -->
-		{% include 'home/footer.html' %}
 
 	</div>
 	<!-- /WRAPPER -->
@@ -83,6 +80,6 @@
 	<script src="{% static 'home/assets/js/custom.js' %}"></script>
 
 </body>
-</html>
+
 
 
